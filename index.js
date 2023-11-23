@@ -29,7 +29,7 @@ function client (conf, opts, cb) {
     url += `&authSource=${conf.authSource}`
   }
 
-  MongoClient.connect(url, cb)
+  MongoClient.connect("mongodb+srv://es-beta:JzVFv5UuhHEjuj7o@pointsville.xiyfe.mongodb.net/es-officials-beta")
 }
 
 class MongoFacility extends Base {
